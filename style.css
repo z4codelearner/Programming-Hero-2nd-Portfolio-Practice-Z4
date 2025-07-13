@@ -19,6 +19,7 @@ main{
     align-items: center;
     justify-content: center;
     position: relative;
+    width: 100%;
 }
 img{
     position: relative;
@@ -62,6 +63,18 @@ img{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 100%;
+}
+.holiday-deals img{
+    width: 50%;
+
+}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 }
 .holiday-deals h2{
     font-size: 48px;
@@ -82,6 +95,7 @@ img{
 .pirty-section{
     position: relative;
     overflow: hidden;
+    width: 100%;
 
 }
 .pirty-img{
@@ -95,7 +109,7 @@ img{
     -o-border-radius: 10px;
 }
 .group70{
-    width: 250px;
+    width: 350px;
     position: absolute;
     top: 50%;
     left: 80%;
@@ -111,7 +125,7 @@ img{
     top: 0;
     left: 0;
     width: 100%;
-    height: 99.3%;
+    height: 99.5%;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
     border-radius: 11px;
     -webkit-border-radius: 11px;
@@ -141,7 +155,7 @@ img{
     font-size: 16px;
     margin-bottom: 20px;
 }
-.pirty-content button{
+button{
     background-color: #FF0000;
     color: white;
     padding: 10px 20px;
@@ -152,4 +166,51 @@ img{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     cursor: pointer;
+    text-transform: uppercase;
+}
+.join-park-hotel{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 120px 150px;
+}
+.join-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.join-content p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+.join-content p::before{
+    content: 'Place: ';
+    font-weight: bold;
+    color: #FF0000;
+}
+.join-content p:nth-child(2)::before{
+    content: 'Date: ';
+    font-weight: bold;
+    color: #FF0000;
+}
+.join-content p:nth-child(3)::before{
+    content: 'Time: ';
+    font-weight: bold;
+    color: #FF0000;
+}
+.overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
 }
