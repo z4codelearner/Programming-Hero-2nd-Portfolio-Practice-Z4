@@ -216,3 +216,73 @@ button{
     -ms-border-radius: 11px;
     -o-border-radius: 11px;
 }
+
+.comming-soon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 150px;
+    gap: 50px;
+}
+.comming-soon-container .left{
+    width: 50%;
+}
+.comming-soon-container .left span{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.comming-soon-container .left h2{
+    font-size: 52px;
+    color: #000000;
+    margin: 20px 0;
+}
+.comming-soon-container .left p{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.comming-soon-container .left button{
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.comming-soon-container .midle{
+    width: 50%;
+    border: 10px solid #FF0000;
+    padding: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: ;
+    overflow: hidden;
+}
+.comming-soon-container .midle img{
+    width: 100%;
+}
+.comming-soon-container .right{
+    width: 50%;
+}
+.comming-soon-container .right span{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.comming-soon-container .right p{
+    font-size: 16px;
+    color: #000000;
+    margin: 20px 0;
+}
+.comming-soon-container .right img{
+    width: 150px;
+}
